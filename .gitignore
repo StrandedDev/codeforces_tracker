@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+vite.config.ts.timestamp-*
+
+# OS files
+.DS_Store
+Desktop.ini
+ehthumbs.db
+
+# Package manager locks (keep only one — uncomment whichever you use)
+# yarn.lock
+# pnpm-lock.yaml
+# package-lock.json
+
+# Coverage & testing
+coverage/
+.nyc_output/
+
+# Misc
+*.local
+*.log
