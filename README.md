@@ -10,6 +10,46 @@ A sleek, dark-themed web app to browse, filter, and track Codeforces problems �
 
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) v18 or higher
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/StrandedDev/codeforces_tracker.git
+cd codeforces_tracker
+
+# Install dependencies
+npm install
+```
+
+### Run Locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser. Vite provides hot-reload so changes appear instantly.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+The output is generated in the `dist/` folder. To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
 ## ✨ Features
 
 ### 🔍 Problem Browser
@@ -44,45 +84,6 @@ A sleek, dark-themed web app to browse, filter, and track Codeforces problems �
 ### 🏛️ Accurate Division Detection
 - Fetches the actual contest list from the API and parses division info from contest names (e.g., `"Codeforces Round #800 (Div. 2)"`)
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) v18 or higher
-- npm (comes with Node.js)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/codeforces-problem-explorer.git
-cd codeforces-problem-explorer
-
-# Install dependencies
-npm install
-```
-
-### Development
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser. Vite provides hot-reload so changes appear instantly.
-
-### Production Build
-
-```bash
-npm run build
-```
-
-The output is generated in the `dist/` folder. To preview the production build locally:
-
-```bash
-npm run preview
-```
 
 ---
 
